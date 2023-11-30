@@ -11,39 +11,38 @@
 .ytv {
     display: flex;
     flex-direction: column;
-    align-content: space-between; /*RAGEY*/
+    gap: 10px
 }
 .ytv__bottom {
    display: flex;
    flex-wrap: wrap;
+   gap: 20px;
 }
 .ytv__left {
     align-self: flex-start;
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
-    /*margin: 5px;*/
+    gap: 20px;
 }
 .ytv__right {
     align-self: flex-end;
     flex-grow: 1;
     display: flex;
     justify-content:flex-end;
-    gap: 10px;
-    /*margin: 5px;*/
+    gap: 20px;
 }
 .profile {
    display: flex;
-   gap: 10px;
+   gap: 20px;
 }
 .profile__text { 
    display: flex;
    flex-flow: column;
-   align-content: space-between; /*RAGEY*/
+   gap: 5px
 }
 .icon {
-
+   align-self: center;
 }
 .btn--flex {
     
