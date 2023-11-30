@@ -1,0 +1,50 @@
+/* DOKUMENT STYLŮ K ÚPRAVĚ */
+
+.main {
+   gap: 1em;
+   display: flex;
+   flex-wrap: wrap;
+   min-width: 480px;
+   align-content: center;
+   justify-content: center;
+}
+.ytv {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; /*RAGEY*/
+}
+.ytv__bottom {
+   display: flex;
+   flex-wrap: wrap;
+}
+.ytv__left {
+    align-self: flex-start;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    /*margin: 5px;*/
+}
+.ytv__right {
+    align-self: flex-end;
+    flex-grow: 1;
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+    /*margin: 5px;*/
+}
+.profile {
+   display: flex;
+   gap: 10px;
+}
+.profile__text { 
+   display: flex;
+   flex-flow: column;
+   align-content: space-between; /*RAGEY*/
+}
+.icon {
+
+}
+.btn--flex {
+    
+}
